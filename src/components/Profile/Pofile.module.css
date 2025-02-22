@@ -1,0 +1,65 @@
+.profile {
+  width: 320px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 10px;
+
+  margin: 0 auto;
+  border: 5px solid #3e3a3a;
+  border-radius: 20px;
+
+  color: #737070;
+}
+.profile img {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #1f1f1f;
+  border: 5px solid #cbc8c8;
+  margin-block-end: 30px;
+}
+.profile p {
+  margin: 0;
+  padding: 0;
+}
+.profile img + p {
+  font-size: 23px;
+  font-weight: 900;
+  letter-spacing: 1.1;
+  color: #000000;
+}
+.profile ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #cdcbc9;
+  border-top: 2px solid #3e3a3a;
+  border-radius: 0 0 10px 10px;
+}
+.profile ul li {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  flex-grow: 1;
+  color: #000000;
+}
+
+.profile ul li:not(:last-child) {
+  border-right: 2px solid #515050;
+}
+.profile ul li span:last-of-type {
+  font-weight: 600;
+  font-size: 20px;
+}
